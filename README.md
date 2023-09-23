@@ -1,7 +1,7 @@
 # 简介
 通过Selenium模拟Chrome浏览器使用必应"电脑搜索"和"移动设备搜索"操作，获取Microsoft Rewards
 
-![image.png](doc\image\daily search details.png)
+![image.png](https://raw.githubusercontent.com/stelaino/ms-rewards-automation/main/doc/image/daily%20search%20details.png)
 # 运行环境
 ## JDK
 使用Java 8，其它版本预计也兼容（无推荐，作者使用[Alibaba Dragonwell](https://dragonwell-jdk.io/#/index)）
@@ -13,11 +13,10 @@
 - 执行即执行搜索的次数
 - "确认"后应用启动电脑和移动设备端模拟指定次数
 
-![image.png](doc\image\app window.png)
+![image.png](https://raw.githubusercontent.com/stelaino/ms-rewards-automation/main/doc/image/app%20window.png)
 
-![image.png](doc\image\demonstrate the effect.png)
+![image.png](https://raw.githubusercontent.com/stelaino/ms-rewards-automation/main/doc/image/demonstrate%20the%20effect.png)
 
 # 备注
 **Cookie获取:** 自行使用必应搜索，获取服务器请求中Header中的Cookie值
-
-![image.png](doc\image\acquisition of cookies.png)
+![image.png](https://raw.githubusercontent.com/stelaino/ms-rewards-automation/main/doc/image/acquisition%20of%20cookies.png)
